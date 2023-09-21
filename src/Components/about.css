@@ -1,0 +1,16 @@
+.myImg {
+  height: 5rem;
+  object-fit:cover;
+  
+   /* width: 5rem;  */
+  background: yellow;
+}
+.about{
+  display: flex;
+  color: white;
+}
+.imgBg {
+  background: yellow;
+  padding: auto;
+
+}

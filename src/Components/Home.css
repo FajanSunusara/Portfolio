@@ -1,0 +1,88 @@
+/* Home.css  */
+ .HomeClass{
+  display: flex;
+  justify-content: space-around;
+   align-items: center; 
+}
+
+#intro {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 ;
+  overflow: hidden;
+  position: relative;
+
+}
+.myImg {
+  object-fit:cover;
+  height: 23rem;
+   width: 22rem; 
+  background:#34c3eb;
+}
+
+.imgBg {
+  position: absolute;
+  top: 10rem;
+  right: 10rem;
+  background: #34c3eb;
+  /* padding: 2rem; */
+  /* border: 5rem; */
+  border: 5px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+
+} 
+
+
+
+.introContent {
+  height: 100vh;
+  width: 100vw;
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.introName {
+  /* color: #34c3eb; */
+  color:yellow
+}
+
+.introPara {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding-top: 5px;
+}
+
+.btn {
+  background: #34c3eb;
+  margin: 1rem 0;
+  padding: 0.6rem 0.9rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  cursor: pointer; /* Added cursor pointer for the button */
+}
+
+.btn:hover {
+  background: rgb(171, 170, 170);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Added a box shadow on hover */
+}
+
+.btnImg {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 1rem;
+}
+
+/* Add any additional styles as needed */

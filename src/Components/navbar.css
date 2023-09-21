@@ -1,0 +1,123 @@
+.NavbarItems{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 1.2rem;
+   padding: 0 30px;
+   background-color: #222;
+   box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+   width: 90%;
+   height: 60px;
+   border-radius: 13px;
+   position: fixed;
+   top: 20px;
+   left: 50%;
+   transform: translate(-50%);
+ 
+}
+
+/* .Nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+.Ul{
+    display: grid; 
+    grid-template-columns: repeat(5,auto);
+     justify-content: end; 
+     align-items: center;
+     text-align: center;
+     grid-gap: 2rem;
+    color: white;
+    list-style: none;
+    padding:  0.7rem 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+.li-hover:hover{
+    color:  #34c3eb ;
+    padding-bottom: 0.5 rem;
+    border-bottom: 2px solid  #34c3eb ;
+}
+
+.logo{
+    color:#34c3eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.BtnSignin{
+    background-color: #34c3eb ;
+    border-top: 5px; 
+    border-radius: 10px;
+    height: 30px;
+    width: 6.5rem;
+    margin-top: 12px ;
+    font-size: medium;
+}
+.BtnSignin:hover{
+    background-color: white ;
+     border-radius: 10px; 
+    height: 2.3rem;
+    width: 6.7rem; 
+    
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width:850px){
+    .NavbarItems{
+        z-index: 99;
+        justify-content: space-between;
+        top: 0;
+    }
+    .Ul{
+        display: flex;
+        color: black;
+        font-size: 2rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px  0  rgba(31, 38, 135, .37);
+        backdrop-filter: blur(4px);
+        border-radius: 13px;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top:0;
+        left:-110%;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0;
+        z-index: -1;
+        
+    }
+    .Ulactive{
+        left: 0%;
+        
+    }
+    .BtnSignin{
+        background-color: #34c3eb ;
+        border-radius: 10px;
+        height: 2.5rem;
+        width: 9rem;
+        font-size: 1.5rem ;
+    }
+   
+    .menu-icon {
+        display: block;
+        position: absolute;
+        right: 30px; /* Adjust the value as needed */
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    
+}
+    
